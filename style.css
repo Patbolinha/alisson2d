@@ -19,7 +19,6 @@ header{
 li{
     display: inline flex;
     margin: 20px;
-    list-style: none;
 }
 a{
     color: white;
@@ -28,3 +27,59 @@ a:hover{
     color: rgb(132, 14, 201);
     transition: 0.3s all;
 }
+#Increva-se-btn{
+    border: 2px solid  rgb(132, 14, 201);
+    padding: 10px;
+    border-radius: 15px;
+}
+#Inscreva-se-btn:hover{
+    background-color: solid rgb(132, 14, 201);
+    color: white;
+}
+h1{
+    font-weight: 200;
+}
+main{
+    display: flex;
+    margin-top: 50px;
+}
+span1{
+    color: rgb(132, 14, 201);
+    font-size: 60px;
+}
+span{
+    font-size: 40px;
+}
+p{
+    line-height: 20px;
+    max-width: 500px;
+}
+img{
+    width: 580px;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: rgb(132, 14, 201);
+    color: white;
+    font-weight: bold;
+}
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+input{
+    margin-top: 15px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+
+}
+
