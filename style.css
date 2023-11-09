@@ -19,6 +19,7 @@ header{
 li{
     display: inline flex;
     margin: 20px;
+    
 }
 a{
     color: white;
@@ -56,7 +57,7 @@ p{
 }
 img{
     width: 580px;
-    
+    margin-left: 90px;
 }
 form{
     display: flex;
@@ -80,6 +81,12 @@ input{
     border-radius: 20px;
     border: none;
     font-size: 15px;
-
 }
+main aside article{
+    display: flex;
+}
+ul li{
+    text-decoration: none;
+}
+
 
